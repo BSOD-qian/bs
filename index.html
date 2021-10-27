@@ -17,9 +17,10 @@
 <body class="mdui-theme-primary-indigo mdui-theme-accent-pink mdui-appbar-with-tab">
     <div class="mdui-appbar mdui-appbar-fixed">
         <div class="mdui-tab mdui-color-theme mdui-tab-centered" mdui-tab>
-            <a href="#tab1" class="mdui-ripple mdui-ripple-white">未背诵</a>
+            <a href="#tab1" class="mdui-ripple mdui-ripple-white mdui-tab-active">未背诵</a>
             <a href="#tab2" class="mdui-ripple mdui-ripple-white" disabled>有问题的背诵</a>
-            <a href="#tab3" class="mdui-ripple mdui-ripple-white" disabled>关于</a>
+            <a href="#tab3" class="mdui-ripple mdui-ripple-white" disabled>不在图表中展示的人</a>
+            <a href="#tab4" class="mdui-ripple mdui-ripple-white">关于</a>
         </div>
     </div>
     <div class="mdui-typo mdui-container">
@@ -29,28 +30,17 @@
         <div id="tab2">
             <img src="./wt.png" />
         </div>
-        <div id="tab3">
+        <div id="tab4" style="text-align: center;">
+            <h1><i class="mdui-icon material-icons">book</i></h1>
             <h1>背诵</h1>
-            <p>网页版本202110271946</p>
+            <p>网页版本20211027</p>
             <p>Based on mdui project.Powered by github.</p>
         </div>
     </div>
-    <button class="mdui-fab mdui-color-theme-accent mdui-ripple mdui-fab-fixed" id="bar"><i
-            class="mdui-icon material-icons">info_outline</i></button>
     <!-- MDUI JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/js/mdui.min.js"
         integrity="sha384-gCMZcshYKOGRX9r6wbDrvF+TcCCswSHFucUzUPwka+Gr+uHgjlYvkABr95TCOz3A"
         crossorigin="anonymous"></script>
-    <script>
-        var $ = mdui.$;
-
-        $('#bar').on('click', function () {
-            mdui.snackbar({
-                message: '背诵<br/>202110271946',
-                position: 'left-bottom'
-            });
-        });
-    </script>
 </body>
 
 </html>
