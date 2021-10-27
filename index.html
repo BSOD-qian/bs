@@ -27,19 +27,30 @@
             <img src="./bs.png" />
         </div>
         <div id="tab2">
-            <img src="./wt.png"/>
+            <img src="./wt.png" />
         </div>
         <div id="tab3">
             <h1>背诵</h1>
-            <p>网页版本202110271918</p>
+            <p>网页版本202110271946</p>
             <p>Based on mdui project.Powered by github.</p>
         </div>
     </div>
-
+    <button class="mdui-fab mdui-color-theme-accent mdui-ripple mdui-fab-fixed" id="bar"><i
+            class="mdui-icon material-icons">info_outline</i></button>
     <!-- MDUI JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/js/mdui.min.js"
         integrity="sha384-gCMZcshYKOGRX9r6wbDrvF+TcCCswSHFucUzUPwka+Gr+uHgjlYvkABr95TCOz3A"
         crossorigin="anonymous"></script>
+    <script>
+        var $ = mdui.$;
+
+        $('#bar').on('click', function () {
+            mdui.snackbar({
+                message: '背诵<br/>202110271946',
+                position: 'left-bottom'
+            });
+        });
+    </script>
 </body>
 
 </html>
