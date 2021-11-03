@@ -51,15 +51,26 @@
         <div id="tab4" style="text-align: center;">
             <h1><i class="mdui-icon material-icons">book</i></h1>
             <h1>背诵</h1>
-            <p>网页版本20211101</p>
+            <p>网页版本20211103</p>
             <p>Based on mdui project.Powered by github.</p>
         </div>
-        <p style="text-align: center;">愿你有一天，能和你最重要的人重逢。——《可塑性记忆》</p>
+        <p style="text-align: center;"><span id="hitokoto_text">一言正文</span>——<span id="hitokoto_owner">一言来源</span></p>
+        <script>
+            fetch('https://v1.hitokoto.cn/')
+              .then(response => response.json())
+              .then(data => {
+                const hitokotot = document.getElementById('hitokoto_text')
+                const hitokotoo = document.getElementById('hitokoto_owner')
+                hitokotot.innerText = data.hitokoto
+                hitokotoo.innerText = data.from
+              })
+              .catch(console.error)
+          </script>
     </div>
     <!-- MDUI JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/js/mdui.min.js"
         integrity="sha384-gCMZcshYKOGRX9r6wbDrvF+TcCCswSHFucUzUPwka+Gr+uHgjlYvkABr95TCOz3A"
         crossorigin="anonymous"></script>
-</body>
+  </body>
 
 </html>
