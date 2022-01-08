@@ -13,20 +13,11 @@
   <title>首页 | 背诵</title>
   <link rel="manifest" href="./manifest.json">
   <script>
-    window.addEventListener('load', async e => {
-    await fetchTrending();
-
-    if ('serviceWorker' in navigator) {
-        try {
-            navigator.serviceWorker.register('sw.js');
-            console.log('SW registered');
-
-        } catch (error) {
-            console.log('SW failed');
-
-        }
-    }
-});
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('./sw.js');
+  });
+}
 </script>
 </head>
 
