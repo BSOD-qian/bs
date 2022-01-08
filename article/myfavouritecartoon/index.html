@@ -17,13 +17,13 @@
 <body class="mdui-appbar-with-toolbar mdui-theme-layout-auto mdui-theme-primary-lime mdui-theme-accent-orange">
   <div class="mdui-appbar mdui-appbar-fixed">
     <div class="mdui-toolbar mdui-color-theme-900">
-      <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#drawer'}">
+      <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-dialog="{target: '#error'}">
         <i class="mdui-icon material-icons">menu</i>
       </a>
       <a href="javascript:;" class="mdui-typo-headline">背诵</a>
       <a href="javascript:;" class="mdui-typo-title">article/My favourite cartoon</a>
       <div class="mdui-toolbar-spacer"></div>
-      <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#version'}">
+      <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#drawer'}">
         <i class="mdui-icon material-icons">info</i>
       </a>
     </div>
@@ -35,7 +35,7 @@
     <div class="mdui-typo">
       <h1>关于</h1>
       <h1 style="text-align: center;">背诵 </h1>
-      <span>版本 8.1.18</span><br/>
+      <span>版本 8.1.19</span><br/>
       <span>11ty版本 v0.12.1</span>
       <hr/>
       <span>文章数 11</span><br/>
@@ -48,6 +48,13 @@
 <p>My favourite cartoon is Pleasant Goat and Big Big Wolf. It has been the most popular cartoon in China since 2005.
  The cartoon tells us stories about how some young and brave goats fight against two wolves who want to hurt them. The stories are very interesting. Big Big Wolf thinks of many ways to catch goats as his food, but the smart goats fight against wolves for their lives and friendship, so Big Big Wolf fails every time. Not only children are interested in the cartoon but their parents and even their grandparents also like to watch it. You can stay at home and watch it. Don’t miss it.</p>
 </div>
+  <div class="mdui-dialog" id="error">
+    <div class="mdui-dialog-title">错误</div>
+    <div class="mdui-dialog-content">拒绝访问</div>
+    <div class="mdui-dialog-actions">
+      <button class="mdui-btn mdui-ripple" mdui-dialog-confirm>好</button>
+    </div>
+  </div>
 
   <!-- MDUI JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/js/mdui.min.js"></script>

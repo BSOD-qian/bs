@@ -17,13 +17,13 @@
 <body class="mdui-appbar-with-toolbar mdui-theme-layout-auto mdui-theme-primary-lime mdui-theme-accent-orange">
   <div class="mdui-appbar mdui-appbar-fixed">
     <div class="mdui-toolbar mdui-color-theme-900">
-      <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#drawer'}">
+      <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-dialog="{target: '#error'}">
         <i class="mdui-icon material-icons">menu</i>
       </a>
       <a href="javascript:;" class="mdui-typo-headline">背诵</a>
       <a href="javascript:;" class="mdui-typo-title">article/The Way(s) I learn English</a>
       <div class="mdui-toolbar-spacer"></div>
-      <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#version'}">
+      <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#drawer'}">
         <i class="mdui-icon material-icons">info</i>
       </a>
     </div>
@@ -35,7 +35,7 @@
     <div class="mdui-typo">
       <h1>关于</h1>
       <h1 style="text-align: center;">背诵 </h1>
-      <span>版本 8.1.18</span><br/>
+      <span>版本 8.1.19</span><br/>
       <span>11ty版本 v0.12.1</span>
       <hr/>
       <span>文章数 11</span><br/>
@@ -50,6 +50,13 @@ There are many good ways of learning English, but I think the best way is to pra
 In my daily life, I usually listen to the English radio or read English newspapers because they can help me improve my skills in listening and reading. In addition, I also do enough exercises to improve abilities of writing. Sometimes, I talk with my classmates in English so that I can practise speaking.
 If you do these things above, I am sure that your English will be better.</p>
 </div>
+  <div class="mdui-dialog" id="error">
+    <div class="mdui-dialog-title">错误</div>
+    <div class="mdui-dialog-content">拒绝访问</div>
+    <div class="mdui-dialog-actions">
+      <button class="mdui-btn mdui-ripple" mdui-dialog-confirm>好</button>
+    </div>
+  </div>
 
   <!-- MDUI JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/js/mdui.min.js"></script>

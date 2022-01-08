@@ -1,0 +1,15 @@
+{
+    "background_color": "purple",
+    "description": "Simple English Experience",
+    "display": "fullscreen",
+    "icons": [
+      {
+        "src": "./logo.ico",
+        "sizes": "192x192",
+        "type": "image/ico"
+      }
+    ],
+    "name": "英语背诵",
+    "short_name": "背诵",
+    "start_url": "./"
+  }

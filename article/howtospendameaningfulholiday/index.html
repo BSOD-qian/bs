@@ -17,13 +17,13 @@
 <body class="mdui-appbar-with-toolbar mdui-theme-layout-auto mdui-theme-primary-lime mdui-theme-accent-orange">
   <div class="mdui-appbar mdui-appbar-fixed">
     <div class="mdui-toolbar mdui-color-theme-900">
-      <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#drawer'}">
+      <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-dialog="{target: '#error'}">
         <i class="mdui-icon material-icons">menu</i>
       </a>
       <a href="javascript:;" class="mdui-typo-headline">背诵</a>
       <a href="javascript:;" class="mdui-typo-title">article/How to spend a meaningful holiday</a>
       <div class="mdui-toolbar-spacer"></div>
-      <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#version'}">
+      <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#drawer'}">
         <i class="mdui-icon material-icons">info</i>
       </a>
     </div>
@@ -35,7 +35,7 @@
     <div class="mdui-typo">
       <h1>关于</h1>
       <h1 style="text-align: center;">背诵 </h1>
-      <span>版本 8.1.18</span><br/>
+      <span>版本 8.1.19</span><br/>
       <span>11ty版本 v0.12.1</span>
       <hr/>
       <span>文章数 11</span><br/>
@@ -47,6 +47,13 @@
   <div class="mdui-container mdui-typo"><h1>#6 How to spend a meaningful holiday</h1>
 <p>The winter holiday is coming. I’m going to have a good rest and learn to relax myself. I will read more useful books because reading more books is not only interesting but also can make me learn more knowledge. I will try to spend more time in chatting with my parents and help them to do some housework. I am going to take part in the social activities so that I can know more about the society. If possible, I’d like to go to Beijing for a visit of Beijing University. I’m sure I’ll have an interesting and meaningful winter holiday.</p>
 </div>
+  <div class="mdui-dialog" id="error">
+    <div class="mdui-dialog-title">错误</div>
+    <div class="mdui-dialog-content">拒绝访问</div>
+    <div class="mdui-dialog-actions">
+      <button class="mdui-btn mdui-ripple" mdui-dialog-confirm>好</button>
+    </div>
+  </div>
 
   <!-- MDUI JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/js/mdui.min.js"></script>

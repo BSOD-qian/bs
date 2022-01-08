@@ -17,13 +17,13 @@
 <body class="mdui-appbar-with-toolbar mdui-theme-layout-auto mdui-theme-primary-lime mdui-theme-accent-orange">
   <div class="mdui-appbar mdui-appbar-fixed">
     <div class="mdui-toolbar mdui-color-theme-900">
-      <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#drawer'}">
+      <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-dialog="{target: '#error'}">
         <i class="mdui-icon material-icons">menu</i>
       </a>
       <a href="javascript:;" class="mdui-typo-headline">背诵</a>
       <a href="javascript:;" class="mdui-typo-title">article/My view on homework</a>
       <div class="mdui-toolbar-spacer"></div>
-      <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#version'}">
+      <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#drawer'}">
         <i class="mdui-icon material-icons">info</i>
       </a>
     </div>
@@ -35,7 +35,7 @@
     <div class="mdui-typo">
       <h1>关于</h1>
       <h1 style="text-align: center;">背诵 </h1>
-      <span>版本 8.1.18</span><br/>
+      <span>版本 8.1.19</span><br/>
       <span>11ty版本 v0.12.1</span>
       <hr/>
       <span>文章数 11</span><br/>
@@ -49,6 +49,13 @@
 But in my opinion, doing a large amount of homework isn’t helpful to students. It may cause a lot of problems. On one hand, doing too much homework makes us have less time to rest. We may feel tired and haven’t enough energy to listen to teachers carefully in class. It’s bad for our health. On the other hand, the quality of our homework would often be compared with others’. Indeed, this kind of comparison makes many students feel stressed. More importantly, because of too much homework, we don’t have enough time to do the things we really want to do. We younger generation need enough space and time to develop our own interests.
 How I wish I could have less homework!</p>
 </div>
+  <div class="mdui-dialog" id="error">
+    <div class="mdui-dialog-title">错误</div>
+    <div class="mdui-dialog-content">拒绝访问</div>
+    <div class="mdui-dialog-actions">
+      <button class="mdui-btn mdui-ripple" mdui-dialog-confirm>好</button>
+    </div>
+  </div>
 
   <!-- MDUI JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/js/mdui.min.js"></script>

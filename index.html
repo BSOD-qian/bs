@@ -11,6 +11,7 @@
   <!-- MDUI CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/css/mdui.min.css" />
   <title>首页 | 背诵</title>
+  <link rel="manifest" href="./manifest.json">
 </head>
 
 <body class="mdui-appbar-with-toolbar mdui-theme-layout-auto mdui-theme-primary-lime mdui-theme-accent-orange">
@@ -34,7 +35,7 @@
     <div class="mdui-typo">
       <h1>关于</h1>
       <h1 style="text-align: center;">背诵 </h1>
-      <span>版本 8.1.18</span><br />
+      <span>版本 8.1.19</span><br />
       <span>11ty版本 v0.12.1</span>
       <hr />
       <span>文章数 11</span><br />
@@ -43,9 +44,17 @@
       <span>&copy;2022 BSOD</span>
     </div>
   </div>
-  <div class="mdui-container mdui-typo"><h1>背诵篇目</h1>
-<p><button class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent" mdui-drawer="{target: '#drawer'}">Start my journey</button></p>
-<div><a href="./" class="">首页</a><br/><a href="./article/myfavouritecartoon" class="">My favourite cartoon</a><br/><a href="./article/readingagoodhabit" class="">Reading — A Good Habit</a><br/><a href="./article/anunforgettableexperience" class="">An Unforgettable Experience</a><br/><a href="./article/learntosmile" class="">Learn to smile</a><br/><a href="./article/thewaysilearnenglish" class="">The Way(s) I learn English</a><br/><a href="./article/howtospendameaningfulholiday" class="">How to spend a meaningful holiday</a><br/><a href="./article/anunforgettableexperience2" class="">An unforgettable experience</a><br/><a href="./article/happinesscomesfromloveandcare" class="">Happiness comes from love and care</a><br/><a href="./article/usefulnumbers" class="">Useful numbers</a><br/><a href="./article/myviewonhomework" class="">My view on homework</a><br/><a href="./article/giveandtake" class="">Give and take</a><br/></div>
+  <div class="mdui-container mdui-typo"><h1>背诵</h1>
+<p><button class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent" mdui-dialog="{target: '#error'}">Start my journey</button>
+<a href="./临终关怀大礼包.zip" class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent">获取 临终关怀大礼包</a></p>
+<div></div>
+  </div>
+  <div class="mdui-dialog" id="error">
+    <div class="mdui-dialog-title">错误</div>
+    <div class="mdui-dialog-content">拒绝访问</div>
+    <div class="mdui-dialog-actions">
+      <button class="mdui-btn mdui-ripple" mdui-dialog-confirm>好</button>
+    </div>
   </div>
 
   <!-- MDUI JavaScript -->

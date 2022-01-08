@@ -17,13 +17,13 @@
 <body class="mdui-appbar-with-toolbar mdui-theme-layout-auto mdui-theme-primary-lime mdui-theme-accent-orange">
   <div class="mdui-appbar mdui-appbar-fixed">
     <div class="mdui-toolbar mdui-color-theme-900">
-      <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#drawer'}">
+      <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-dialog="{target: '#error'}">
         <i class="mdui-icon material-icons">menu</i>
       </a>
       <a href="javascript:;" class="mdui-typo-headline">背诵</a>
       <a href="javascript:;" class="mdui-typo-title">article/An unforgettable experience</a>
       <div class="mdui-toolbar-spacer"></div>
-      <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#version'}">
+      <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#drawer'}">
         <i class="mdui-icon material-icons">info</i>
       </a>
     </div>
@@ -35,7 +35,7 @@
     <div class="mdui-typo">
       <h1>关于</h1>
       <h1 style="text-align: center;">背诵 </h1>
-      <span>版本 8.1.18</span><br/>
+      <span>版本 8.1.19</span><br/>
       <span>11ty版本 v0.12.1</span>
       <hr/>
       <span>文章数 11</span><br/>
@@ -48,6 +48,13 @@
 <p>It was a Wednesday evening. When I went back home, no one was in. So I cooked the meal. I didn't know my mother was ill until my parents came back from the hospital. They both said the meal was very delicious, although it tasted salty. After supper, I found they were too tired, so I got a basin of hot water for them. When my mother put her feet into the water, with tears in her eyes she said, &quot;Dear, you have grown up.&quot;
 It was an unforgettable experience, because I started to care about my parents and I realized I was not a child any more.</p>
 </div>
+  <div class="mdui-dialog" id="error">
+    <div class="mdui-dialog-title">错误</div>
+    <div class="mdui-dialog-content">拒绝访问</div>
+    <div class="mdui-dialog-actions">
+      <button class="mdui-btn mdui-ripple" mdui-dialog-confirm>好</button>
+    </div>
+  </div>
 
   <!-- MDUI JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/js/mdui.min.js"></script>
