@@ -11,20 +11,12 @@
   <!-- MDUI CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/css/mdui.min.css" />
   <title>首页 | 背诵</title>
-  <link rel="manifest" href="./manifest.json">
-  <script>
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function() {
-    navigator.serviceWorker.unregister('./sw.js');
-  });
-}
-</script>
 </head>
 
 <body class="mdui-appbar-with-toolbar mdui-theme-layout-auto mdui-theme-primary-lime mdui-theme-accent-orange">
   <div class="mdui-appbar mdui-appbar-fixed">
     <div class="mdui-toolbar mdui-color-theme-900">
-      <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#drawer'}">
+      <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-dialog="{target: '#error'}">
         <i class="mdui-icon material-icons">menu</i>
       </a>
       <a href="javascript:;" class="mdui-typo-headline">背诵</a>
@@ -42,10 +34,10 @@ if ('serviceWorker' in navigator) {
     <div class="mdui-typo">
       <h1>关于</h1>
       <h1 style="text-align: center;">背诵 </h1>
-      <span>版本 8.1.19</span><br />
+      <span>版本 8.1.20</span><br />
       <span>11ty版本 v0.12.1</span>
       <hr />
-      <span>文章数 11</span><br />
+      <span>文章数 0</span><br />
       <span>大小 48.5 KB</span>
       <hr />
       <span>&copy;2022 BSOD</span>
@@ -53,7 +45,7 @@ if ('serviceWorker' in navigator) {
   </div>
   <div class="mdui-container mdui-typo"><h1>背诵</h1>
 <p><button class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent" mdui-dialog="{target: '#error'}">Start my journey</button>
-<a href="./临终关怀大礼包.zip" class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent">获取 临终关怀大礼包</a></p>
+<a class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent" mdui-dialog="{target: '#error'}">获取 临终关怀大礼包</a></p>
 <div></div>
   </div>
   <div class="mdui-dialog" id="error">
