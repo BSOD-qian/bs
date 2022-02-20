@@ -10,6 +10,7 @@
   <link rel="icon" type="image/x-ico" href="./logo.ico" />
   <!-- MDUI CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/css/mdui.min.css" />
+  <script src="https://cdn.staticfile.org/echarts/5.3.0/echarts.min.js"></script>
   <title>首页 | 英语</title>
 </head>
 
@@ -62,11 +63,60 @@
     </div>
   </div>
   <div class="mdui-container mdui-typo"><h1>背诵</h1>
-<p><button class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent" mdui-drawer="{target: '#drawer'}">Start my journey</button>
-加群密码：20190901
-Unit 1短语
+<p><button class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent" mdui-drawer="{target: '#drawer'}">Start my journey</button><br>
+加群密码：20190901<br>
+Unit 1短语<br>
 http://tmp.link/f/620f4ee43fd78</p>
 
+    <div id="main" style="width: 600px;height:400px;"></div>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main'));
+ 
+        // 指定图表的配置项和数据
+        var option = {
+  title: {
+    text: '背诵背完了吗？'
+  },
+  tooltip: {
+    trigger: 'axis',
+    axisPointer: {
+      type: 'shadow'
+    }
+  },
+  legend: {},
+  grid: {
+    left: '3%',
+    right: '4%',
+    bottom: '3%',
+    containLabel: true
+  },
+  xAxis: {
+    type: 'value',
+    boundaryGap: [0, 0.01]
+  },
+  yAxis: {
+    type: 'category',
+    data: ['dfy', 'srx', 'pjy', 'gcy', 'hzn', 'wzy']
+  },
+  series: [
+    {
+      name: '未背篇数',
+      type: 'bar',
+      data: [0, 0, 0, 0, 0, 0]
+    },
+    {
+      name: '抽背失败次数',
+      type: 'bar',
+      data: [1, 1, 1, 1, 1, 1]
+    }
+  ]
+};
+
+ 
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    </script>
   </div>
   <div class="mdui-dialog" id="error">
     <div class="mdui-dialog-title">错误</div>
