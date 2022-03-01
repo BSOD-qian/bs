@@ -14,7 +14,7 @@
   <title>首页 | 英语</title>
 </head>
 
-<body class="mdui-appbar-with-toolbar mdui-theme-layout-auto mdui-theme-primary-pink mdui-theme-accent-deep-orange">
+<body class="mdui-appbar-with-toolbar mdui-theme-layout-auto mdui-theme-primary-purple mdui-theme-accent-orange">
   <div class="mdui-appbar mdui-appbar-fixed">
     <div class="mdui-toolbar mdui-color-theme">
       <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#drawer'}">
@@ -34,29 +34,29 @@
   <div class="mdui-drawer mdui-drawer-close" id="drawer">
     <div class="mdui-card">
       <div class="mdui-card-media">
-        <img src="https://api.dujin.org/bing/1920.php"/>
+        <img src="https://api.dujin.org/bing/1920.php" />
         <div class="mdui-card-media-covered mdui-card-media-covered-transparent">
           <div class="mdui-card-primary">
             <div class="mdui-card-primary-title">英语 </div>
-            <div class="mdui-card-primary-subtitle">22w09b</div>
+            <div class="mdui-card-primary-subtitle">22w10a</div>
           </div>
         </div>
       </div>
     </div>
     <div class="mdui-list"><a href="./" class="mdui-list-item mdui-ripple">首页</a></div>
     <div class="mdui-typo-caption-opacity">短语</div>
-    <div class="mdui-list"><a href="./phrase/1" class="mdui-list-item mdui-ripple">Unit 1</a></div>
+    <div class="mdui-list"><a href="./phrase/1" class="mdui-list-item mdui-ripple">Unit 1</a><a href="./phrase/2" class="mdui-list-item mdui-ripple">Unit 2</a></div>
     <div class="mdui-typo-caption-opacity">笔记</div>
-    <div class="mdui-list"><a href="./" class="mdui-list-item mdui-ripple">无</a></div>
+    <div class="mdui-list"><a href="./note/1" class="mdui-list-item mdui-ripple">Unit 1</a></div>
   </div>
   <div class="mdui-drawer mdui-drawer-right mdui-drawer-close" id="version">
     <div class="mdui-typo">
       <h1>关于</h1>
       <h1 style="text-align: center;">英语 </h1>
-      <span>版本 22w09b</span><br />
+      <span>版本 22w10a</span><br />
       <span>11ty版本 v0.12.1</span>
       <hr />
-      <span>文章数 1</span><br />
+      <span>文章数 3</span><br />
       <span>大小 10.7 KB</span>
       <hr />
       <span>&copy;2022 BSOD</span>
@@ -65,51 +65,56 @@
   <div class="mdui-container mdui-typo"><h1>背诵</h1>
 <p><button class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent" mdui-drawer="{target: '#drawer'}">Start my journey</button><br>
 加群密码：20190901<br>
-Unit 1短语<br>
-http://tmp.link/f/620f4ee43fd78</p>
+<s>Unit 1短语<br>
+http://tmp.link/f/620f4ee43fd78</s><br>
+Unit 1笔记<br>
+http://tmp.link/f/621e2f34b2870<br>
+Unit 2短语<br>
+http://tmp.link/f/621e2fa2a5267<br>
+<a href="https://bsod.notion.site/85fda393e34f4ba1a71921a1deb80baa">作业列表</a></p>
 
     <div id="main" style="width: 100%;height:400px;"></div>
     <script type="text/javascript">
-        var myChart = echarts.init(document.getElementById('main'));
-        var option = {
-  title: {
-    text: '背诵背完了吗？'
-  },
-  tooltip: {
-    trigger: 'axis',
-    axisPointer: {
-      type: 'shadow'
-    }
-  },
-  legend: {},
-  grid: {
-    left: '3%',
-    right: '4%',
-    bottom: '3%',
-    containLabel: true
-  },
-  xAxis: {
-    type: 'value',
-    boundaryGap: [0, 0.01]
-  },
-  yAxis: {
-    type: 'category',
-    data: ['段*瑶', '苏*馨', '朴*奕', '龚*烨', '郝*南', '王*言']
-  },
-  series: [
-    {
-      name: '未背篇数',
-      type: 'bar',
-      data: [0, 0, 0, 0, 0, 2]
-    },
-    {
-      name: '抽背失败次数',
-      type: 'bar',
-      data: [1, 1, 1, 1, 1, 1]
-    }
-  ]
-};
-        myChart.setOption(option);
+      var myChart = echarts.init(document.getElementById('main'));
+      var option = {
+        title: {
+          text: '背诵背完了吗？'
+        },
+        tooltip: {
+          trigger: 'axis',
+          axisPointer: {
+            type: 'shadow'
+          }
+        },
+        legend: {},
+        grid: {
+          left: '3%',
+          right: '4%',
+          bottom: '3%',
+          containLabel: true
+        },
+        xAxis: {
+          type: 'value',
+          boundaryGap: [0, 0.01]
+        },
+        yAxis: {
+          type: 'category',
+          data: ['段*瑶', '苏*馨', '朴*奕', '龚*烨', '郝*南', '王*言']
+        },
+        series: [
+          {
+            name: '未背篇数',
+            type: 'bar',
+            data: [0, 0, 0, 0, 0, 3]
+          },
+          {
+            name: '抽背失败次数',
+            type: 'bar',
+            data: [1, 1, 1, 1, 1, 1]
+          }
+        ]
+      };
+      myChart.setOption(option);
     </script>
   </div>
   <div class="mdui-dialog" id="error">
