@@ -1,133 +1,74 @@
-<!doctype html>
-<html lang="zh-cmn-Hans">
+<!DOCTYPE html>
+<html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" />
-  <meta name="renderer" content="webkit" />
-  <meta name="force-rendering" content="webkit" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <link rel="icon" type="image/x-ico" href="./logo.ico" />
-  <!-- MDUI CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/css/mdui.min.css" />
-  <script src="https://cdn.staticfile.org/echarts/5.3.0/echarts.min.js"></script>
-  <title>首页 | 英语</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
 </head>
 
-<body class="mdui-appbar-with-toolbar mdui-theme-layout-auto mdui-theme-primary-purple mdui-theme-accent-orange">
-  <div class="mdui-appbar mdui-appbar-fixed">
-    <div class="mdui-toolbar mdui-color-theme">
-      <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#drawer'}">
-        <i class="mdui-icon material-icons">menu</i>
-      </a>
-      <a href="javascript:;" class="mdui-typo-headline">英语</a>
-      <a href="javascript:;" class="mdui-typo-title">首页</a>
-      <div class="mdui-toolbar-spacer"></div>
-      <a href="https://jq.qq.com/?_wv=1027&k=FM1DTRQT" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '加群下载'}">
-        <i class="mdui-icon material-icons">insert_drive_file</i>
-      </a>
-      <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#version'}">
-        <i class="mdui-icon material-icons">info</i>
-      </a>
-    </div>
-  </div>
-  <div class="mdui-drawer mdui-drawer-close" id="drawer">
-    <div class="mdui-card">
-      <div class="mdui-card-media">
-        <img src="https://api.dujin.org/bing/1920.php" />
-        <div class="mdui-card-media-covered mdui-card-media-covered-transparent">
-          <div class="mdui-card-primary">
-            <div class="mdui-card-primary-title">英语 </div>
-            <div class="mdui-card-primary-subtitle">22w10a</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="mdui-list"><a href="./" class="mdui-list-item mdui-ripple">首页</a></div>
-    <div class="mdui-typo-caption-opacity">短语</div>
-    <div class="mdui-list"><a href="./phrase/1" class="mdui-list-item mdui-ripple">Unit 1</a><a href="./phrase/2" class="mdui-list-item mdui-ripple">Unit 2</a></div>
-    <div class="mdui-typo-caption-opacity">笔记</div>
-    <div class="mdui-list"><a href="./note/1" class="mdui-list-item mdui-ripple">Unit 1</a></div>
-  </div>
-  <div class="mdui-drawer mdui-drawer-right mdui-drawer-close" id="version">
-    <div class="mdui-typo">
-      <h1>关于</h1>
-      <h1 style="text-align: center;">英语 </h1>
-      <span>版本 22w10a</span><br />
-      <span>11ty版本 v0.12.1</span>
-      <hr />
-      <span>文章数 3</span><br />
-      <span>大小 10.7 KB</span>
-      <hr />
-      <span>&copy;2022 BSOD</span>
-    </div>
-  </div>
-  <div class="mdui-container mdui-typo"><h1>背诵</h1>
-<p><button class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent" mdui-drawer="{target: '#drawer'}">Start my journey</button><br>
-加群密码：20190901<br>
-<s>Unit 1短语<br>
-http://tmp.link/f/620f4ee43fd78</s><br>
-Unit 1笔记<br>
-http://tmp.link/f/621e2f34b2870<br>
-Unit 2短语<br>
-http://tmp.link/f/621e2fa2a5267<br>
-<a href="https://bsod.notion.site/85fda393e34f4ba1a71921a1deb80baa">作业列表</a>
-<a href="http://tmp.link/f/621f829233773">作业列表</a></p>
+<body>
+  <div id="app">加载中...</div>
+  <script>
+    window.$docsify = {
+      loadSidebar: true,
+      subMaxLevel: 2,
+      coverpage: true,
+    search: 'auto', // 默认值
 
-    <div id="main" style="width: 100%;height:400px;"></div>
-    <script type="text/javascript">
-      var myChart = echarts.init(document.getElementById('main'));
-      var option = {
-        title: {
-          text: '背诵背完了吗？'
-        },
-        tooltip: {
-          trigger: 'axis',
-          axisPointer: {
-            type: 'shadow'
-          }
-        },
-        legend: {},
-        grid: {
-          left: '3%',
-          right: '4%',
-          bottom: '3%',
-          containLabel: true
-        },
-        xAxis: {
-          type: 'value',
-          boundaryGap: [0, 0.01]
-        },
-        yAxis: {
-          type: 'category',
-          data: ['段*瑶', '苏*馨', '朴*奕', '龚*烨', '郝*南', '王*言']
-        },
-        series: [
-          {
-            name: '未背篇数',
-            type: 'bar',
-            data: [0, 0, 0, 0, 0, 4]
-          },
-          {
-            name: '抽背失败次数',
-            type: 'bar',
-            data: [1, 1, 1, 1, 1, 1]
-          }
-        ]
-      };
-      myChart.setOption(option);
-    </script>
-  </div>
-  <div class="mdui-dialog" id="error">
-    <div class="mdui-dialog-title">错误</div>
-    <div class="mdui-dialog-content">拒绝访问</div>
-    <div class="mdui-dialog-actions">
-      <button class="mdui-btn mdui-ripple" mdui-dialog-confirm>好</button>
-    </div>
-  </div>
+    search : [
+      '/',
+      '/phrase.md',
+      '/note.md'
+    ],
 
-  <!-- MDUI JavaScript -->
-  <script src="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/js/mdui.min.js"></script>
+    // 完整配置参数
+    search: {
+      maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+      paths: [], // or 'auto'
+      placeholder: 'Type to search',
+
+      // 支持本地化
+      placeholder: {
+        '/zh-cn/': '搜索',
+        '/': 'Type to search'
+      },
+
+      noData: 'No Results!',
+
+      // 支持本地化
+      noData: {
+        '/zh-cn/': '找不到结果',
+        '/': 'No Results'
+      },
+
+      // 搜索标题的最大层级, 1 - 6
+      depth: 2,
+
+      hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
+
+      // 避免搜索索引冲突
+      // 同一域下的多个网站之间
+      namespace: 'website-1',
+
+      // 使用不同的索引作为路径前缀（namespaces）
+      // 注意：仅适用于 paths: 'auto' 模式
+      //
+      // 初始化索引时，我们从侧边栏查找第一个路径
+      // 如果它与列表中的前缀匹配，我们将切换到相应的索引
+      pathNamespaces: ['/zh-cn', '/ru-ru', '/ru-ru/v1'],
+
+      // 您可以提供一个正则表达式来匹配前缀。在这种情况下，
+      // 匹配到的字符串将被用来识别索引
+      pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
+    }
+  };
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 
 </html>
