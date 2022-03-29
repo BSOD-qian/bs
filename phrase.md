@@ -228,3 +228,111 @@ wonder  v .   想知道   n. 奇迹
 67.  They are not permitted to cycle.				他们不被允许骑车。
 68.  No littering. 								禁止乱扔垃圾。
 69.  public transport								公共交通
+
+## Unit 4 
+1.	write a composition on newspapers			写一篇关于报纸的文章
+2. a pile of newspapers							一叠报纸
+3. local news									当地新闻
+2.	publish a newspaper							出版一份报纸
+3.	passage										文章
+4.	soon after the term started						学期开始后不久
+5.	write a report for the headmaster				为校长写份报告
+6.	experience   n.    							经验；经历
+7.	an editor of the newspaper 					报纸的编辑
+  edit  v. 									编辑
+9. elect Joyce to be the chief editor				选举乔伊斯为主编
+10. suggest that we should choose Joyce			建议我们选举乔伊斯
+   suggest doing sth.							建议某人做某事
+   suggest (that) sb. (should) do sth.
+11. take charge of the meeting					负责这个会议
+   take charge of: be in charge of：be responsible for	负责
+12. ought to elect a secretary						应该选举一个秘书
+   ought to: should								应该
+   ought not to: shouldn’t						不应该
+13. ask for suggestions      					寻求建议
+14. secretary of the Reading Club					阅读俱乐部的秘书
+15. be elected to be the secretary					被选为秘书
+16.	vote for me         						投我的赞同票
+17.	start taking notes     						开始记笔记
+18.	be responsible for different sections of the paper负责报纸的不同部分
+19.	talk it over among themselves 				在他们中详细讨论 
+20.	decide at the next meeting 					在下一次会议做出决定
+make a decision   							做出一个决定
+21.	make a list of some other things				列一个其他事情的清掉
+22.	be free to readers    						对读者免费
+23. pay for it									支付它
+24. consider the last question briefly 			简短考虑最后一个问题
+25.	whether		conj.						是否
+26. a bit longer           						稍微久一些
+27.	agree to conclude the meeting					同意结束会议
+disagree  v. 								反对
+agreement  n.								协议；一致
+conclusion  n.								结论；结局；推论
+28.	agree to do sth.								同意做某事
+agree with sb.								赞同某人
+agree on sth.								就某事达成一致 
+29.	arrange to have the next meeting in one week’s time       																	安排一周后开下一个会
+arrangement   n.							安排
+30.	a popular choice								一个受欢迎的选择
+31.	right away									立刻
+32.	president of the club 						俱乐部主席
+president									总统；主席；总裁；董事长
+33.	hold a writing competition					举行一个写作比赛
+compete  v.  竞争；竞赛   competitor   n. 竞争对手，参赛者
+34.	even if										即使
+35.	Thank you for joining us.						谢谢加入我们
+36.	give your opinion about an article			    给出你关于文章的观点
+37.	in the newspaper							在报纸上
+38.	sound reasonable							听起来合情合理的
+39.	column  n. 专栏，栏目    appreciate   v. 欢迎，感谢 issue  n. 期
+40.	altogether: in all								总共
+41.	on the front page							在头版
+42.	annual Youth League Party					一年一度的共青团派对
+League members            				团员
+43.	wear the national costume					穿民族服装
+44.	a talent show								一个达人秀
+talent   n.  才能，人才，天才           talented   adj. 有才能的
+45.	a copy of									一份
+46.	gather in clubs								聚在俱乐部
+47.	form into big circles							围成大圈
+48.	congratulate  v.            				祝贺
+congratulation  n. 
+49.	praise sb. for sth.							为某事夸赞某人
+50.	pay compliments to people					向人们道贺
+51.	show his sympathy for Judy 					向朱迪表达他的同情
+52.	You deserve to win.     					你赢得理所当然的。
+53.	I’m delighted for you. 						我为你感到高兴。
+54.	What a pity. / What a shame!					太可惜了！
+55.	How awful!            					太糟了！
+56.	elect me monitor							选我做班长
+57.	fashion editor								时尚编辑
+58.	feature editor         					专题特写编辑
+59.	teenage  adj. 		青少年的				teenager  n.		青少年
+60.	present activities								现在的活动
+61.	committee									委员会
+62.	the first edition of the newspaper 				第一期报纸
+63.	be pleased with: be satisfied with				对…感到满意
+64.	the fittest students							最健康的学生
+65.	complain about the price of the newspaper    抱怨报纸的价格
+66.	The winners will get special prizes.			获胜者将得到特殊的奖励。
+67.	be born in Boston							出生在波斯顿
+68.	a man of many talents and interests			一个多才多艺，兴趣广泛的人
+69.	search for ways to make them better			寻求使它们更好运作的方法
+70.	naturally curious about how things work		对事物如何运作天性好奇
+71.	begin his experiments on electricity with very simple equipment 
+着手用一些简单的设备做有关电的实验
+72.	lead to the discovery of some important findings on electricity
+导致了一些关于电的重要发现 
+73.	lightning conductor							避雷针
+74.	protect buildings from damage caused by lightning 保护建筑免受雷电的损害
+75.	have poor vision            				有糟糕的视力
+76.	be tired of sth./doing sth.  					对…感到厌倦
+77.	be known as 		 						被称为
+78.	put half of each lens into another frame	把每个镜片的一半放到另一个镜框中
+79.	the Atlantic Ocean       					大西洋
+80.	develop a way to make them more efficient	开发一种使它们更高效的方法
+81.	other developments in safety					其他安全方面的开发
+82.	establish the first fire company 				成立第一家消防公司
+83.	improve the paving and lighting of the city’s streets 
+    改进了城市街道的人行道及照明
+84.	include   v.     包含             actually	adv.		实际上
