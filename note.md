@@ -404,3 +404,126 @@ container  n. 容器
 23.  clear   adj. 明白清楚的
 The secretary seems quite clear about what to do. 
     clearly  adv.  明朗地，明显地
+
+## Unit 4
+1. soon after   不久之后，稍后
+Soon after she graduated from university, she got married. 
+2. publish  v.  [‘pʌblɪʃ] 出版，发表 
+This company publishes children’s books. 
+publishing  n. 出版业，发行业
+This is a well-known publishing house. 
+publisher  n. 出版人（机构），发行人（机构）
+3. hold  v.   举行 ：take place
+A sports meeting will be held in our school next week. 
+=A sports meeting will take place in our school next week.
+4. elect   v.  [ɪ’lekt] 选举 ，推选 
+We elect him monitor of our class.
+elect sb.( to be )…选举某人担任…（职务）
+We all elected Tony( to be )monitor of our class. 
+I was elected (to be )the secretary. 
+He is the first black to be elected as mayor他是第一位被选为市长的黑人
+election  n.  选举
+The election was the main event of 2004.  那次选举是2004年的主要大事。
+elector   n. 选民
+5. chief   adj. [tʃi:f] 最重要的，主要的： most important 
+the chief engineer   the chief/main reason 
+6. editor   n.  [‘edɪtə] （报刊杂志的）编辑
+She’s the editor of a magazine. 
+edit   v. [‘edɪt]  编辑, 校订
+She used to edit a women's magazine. 她曾主编过妇女杂志。
+7. suggest  v. [sə’dʒest]  建议, 提议 
+suggest + 名词
+We suggest a visit to the museum the next day. 
+suggest + 动名词
+We suggested putting off the sports meeting. 
+suggest + that  从句用should +动词原形，should 可以省略
+We suggested ( that) he (should) go and make an apology to his teacher. 
+8. experience  un. [ɪks’pɪərɪəns] 经验(不可数) 
+He’s a teacher with over ten years of teaching experience. 
+  cn. 经历 （可数）
+Please tell us your experience in America. 
+an enjoyable/exciting/unusual/unforgettable experience
+  v. 经历
+Many old people have experienced such problems. 很多老年人都遇到过这类问题。
+experienced   adj.  有经验的 
+He’s an experienced engineer. 
+9. vote  n./v.  投票,选举 
+vote for投票(赞成)
+vote for John 
+Who did you vote for in the last general election? 
+vote against  投票(反对)
+voter 投票人，选举人
+10. take charge of 负责： be responsible for 
+Who takes charge of the office while Alice is away? 
+be in charge of 负责   
+The chief engineer was in charge of directing the building of the subway. 
+I’m in charge of my sister. 
+11. ought to   modal v. 应该，应当：should   (shouldn’t= ought not to)
+You ought to work harder than that. 
+Such things ought not to be allowed. 
+12. talk …over   详细讨论，详谈：discuss…carefully 
+We should talk it over before we make the final decision. 
+13. reader   读者
+reading    n. 阅读
+Lily has a good reading habit. 
+14. pay   支付(宾语可以是人和钱）
+He paid the taxi and hurried to the station. 
+He had to pay two hundred yuan.  
+Sb. pays some money for sth.
+You’ll have to pay ten dollars a week for your meals. 
+15. consider  v. [kən’sɪdə]  仔细考虑：think about carefully 
+consider doing sth.
+I am considering going abroad. 
+We're considering buying a new car.
+  v. 认为
+Who do you consider (to be) responsible for the accident?
+你认为谁对这个事故负有责任？
+16. briefly   adv. [‘bri:flɪ]   短暂地,简短地 
+Let me tell you briefly what happened. 
+brief   adj.   短暂的，简短的 
+Mozart’s life was brief. 
+a brief description/summary 
+17. whether  conj.  是否
+I'm not sure whether I should tell you this. 
+18. a bit  一点，稍微
+a bit hot/ heavy 
+not a bit  一点也不：not at all 
+He was not a bit like his father. 
+a bit/a little/much/even/a lot/ far 用于比较级前 
+It costs a bit more than I wanted to spend. 
+19. decision  n. 决定 
+Have they reached a decision yet? 
+We will study the report carefully before making a decision. 
+come to/ arrive at/ reach/ make a decision 
+She couldn’t make a decision about the dress. 
+decide  v. 决定
+What do you decide to do next? 
+20.  conclude [kən’klu:d]  v. 得出结论，推断 
+The doctor concluded that the patient’s disease was cancer. 
+  v. 结束 
+She concluded her speech with a poem. 
+conclusion   n. 结论
+draw /come to/ reach / arrive at / make a conclusion得出结论
+We can draw some conclusions from our discussion. 
+jump to a conclusion  匆忙地下判断;草率地下结论
+Don't jump to a conclusion before considering all the facts.
+21. choice      n.入选者，被选中的东西 
+She’s the obvious choice for the job. 
+  n. 选择
+We are faced with a difficult choice. 
+choose  v. 选择 
+Which flat would you like to choose? 
+22. agree  v.赞同，同意
+agree to do sth. 同意做某事
+She agrees to help him with his English. 
+agree with sb. 赞成…同意…（人）
+She agreed with me. 
+agree on 在某个方面达成一致意见
+They agreed on that point. 
+I couldn’t agree more: I completely agree 完全同意
+23.  arrange  v.安排
+arrange to do sth.   安排做某事
+Have you arranged to meet him? 
+The party was arranged quickly. 
+arrangement    n.  安排
+Are you clear about the arrangements for tomorrow? 
